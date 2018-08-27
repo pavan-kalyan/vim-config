@@ -9,6 +9,8 @@ set expandtab
 set number
 set ruler
 set scrolloff=3
+inoremap [<CR> [<CR>]<Esc>ko<tab> 
+inoremap {<CR> {<CR>}<Esc>ko<tab> 
 set wrap
 set autoindent
 set background=dark
