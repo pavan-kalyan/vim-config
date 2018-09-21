@@ -7,17 +7,19 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set number
+set relativenumber
+set laststatus=2
 set ruler
-set scrolloff=3
-inoremap [<CR> [<CR>]<Esc>ko<tab> 
-inoremap {<CR> {<CR>}<Esc>ko<tab> 
+set scrolloff=5
 set wrap
 set autoindent
+inoremap {<CR> {<CR>}<Esc>ko
+inoremap [<CR> [<CR>]<Esc>ko
 set background=dark
 imap ;; <Esc>
 let g:solarized_termcolors=16
 let &t_Co=256
 colorscheme solarized
 "activate NERDTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
