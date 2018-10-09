@@ -4,6 +4,7 @@ syntax enable
 syntax on	
 filetype plugin indent on
 set title
+set viminfo='20,<1000,s1000
 set tabstop=4
 set shiftwidth=4
 set expandtab
