@@ -21,7 +21,14 @@ set background=dark
 imap ;; <Esc>
 let g:solarized_termcolors=16
 let &t_Co=256
-colorscheme solarized
+set background=dark
+colorscheme palenight
+let g:lightline = {
+      \ 'colorscheme': 'palenight',
+      \ }
+if (has("termguicolors"))
+  set termguicolors
+endif
 "activate NERDTree
 "autocmd vimenter * NERDTree
 
